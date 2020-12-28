@@ -22,8 +22,8 @@ class ExperienceView extends React.Component<Project, Experience> {
     return <View>
       <Text>
         "Project:"
-        {this.props.name}
-      </Text>
+        {this.state.experience.name}
+        </Text>
       <ScrollView>
         "Introduction:"
         {this.state.experience.introduction}
